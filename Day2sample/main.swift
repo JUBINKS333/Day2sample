@@ -10,3 +10,11 @@ import Foundation
 
 print("Hello, World!")
 
+var a:Flo
+/*
+if(true==false)
+{
+    print("tnx")
+}
+*/
+
