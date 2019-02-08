@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
-var a:Flo
+var a:Float
 /*
 if(true==false)
 {
