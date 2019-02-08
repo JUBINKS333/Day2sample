@@ -17,4 +17,28 @@ if(true==false)
     print("tnx")
 }
 */
+var s:String="hello"
+var str=String()
+str="hello world"
+var p:String
+p="call me"
+print(p,str,s)
+print(p.hasPrefix("hello"))
+print(s.count)
+print(str.lowercased())
+print(str.uppercased())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
