@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
-var a:Float
+
 /*
 if(true==false)
 {
@@ -59,11 +59,81 @@ if(y.contains(-1000))
     print("true")
 }
 else{
-    print("false"
-    )
+    print("false")
 }
 
 print("##########################")
+
+if(y.contains(57))
+{
+    print("true")
+}
+else{
+    print("false")
+}
+
+print("##########################")
+
+var a=[10,20,30,40,50]
+print(a.count)
+for i in a
+{
+    print(i)
+    
+}
+print(a[0],a[1],a[3],a[4])
+print("##########################")
+/* will not work
+a[5]=100
+print(a[5])
+*/
+
+
+//inititialize b before without passing array values
+var b = [Int]()
+b.append(100)
+b.append(200)
+b.append(300)
+
+//without append
+b+=[111,222]
+
+print(b[0],b[1],b[2])
+print("##########################")
+
+//printing c that is elements from both a and b
+let c = a + b
+for i in c
+{
+    print(i)
+}
+print("##########################")
+
+//slice of the array
+print("values of c1...3 array")
+
+for i in c[1...3]
+{
+    print(i)
+}
+print("##########################")
+
+var z = c[3...5]
+print(z[3])
+
+
+print("##########################")
+
+var u = Array<Int>()
+u.append(5000)
+print (u[0])
+
+
+
+
+
+
+
 
 
 
