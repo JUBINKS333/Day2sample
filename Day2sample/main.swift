@@ -208,9 +208,11 @@ for(k,_) in country
 //delete all elemements
 print("##########################")
 
-d=[:]
+ //
+d = [:] //first option
+
+d.removeAll() //second option
 print(d.count)
-d.removeAll()
 
 
 
