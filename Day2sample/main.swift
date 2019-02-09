@@ -129,8 +129,90 @@ u.append(5000)
 print (u[0])
 
 print("##########################")
+//look for program
+
+//set example
+
+print("set example")
+
+var s1=Set<String>()
+s1.insert("canada")
+s1.insert("usa")
+s1.insert("india")
+s1.insert("russia")
+
+print(s1)
+
+//will not insert
+s1.insert("india")
+print(s1)
+
+//will
+
+s1.insert("India")
+print(s1)
+
 print("##########################")
+
+ //dictionary
+print("dictionary example")
+
+// var d = [key:"value"]
+
+var d = [1:"Abc",2:"hello"]
+
+print(d)
+
+d[3]="hello world"
+
+print(d)
+
+var country = Dictionary<String,String>()
+country.updateValue("INDIA", forKey: "IND")
+country.updateValue("CHINA", forKey: "CHI")
+country.updateValue("BRAZIL", forKey: "BRZ")
+country.updateValue("AMERICA", forKey: "AMR")
+
+ for i in country
+{
+    print(i)
+    print(i.key,i.value)
+}
+
 print("##########################")
+
+for(k,v) in country
+{
+    print(k,v)
+    
+}
+
+print("##########################")
+
+//value only
+for(_,v) in country
+{
+    print(v)
+    
+}
+
+
+print("##########################")
+//key only
+for(k,_) in country
+{
+    print(k)
+    
+}
+
+//delete all elemements
+print("##########################")
+
+d=[:]
+print(d.count)
+d.removeAll()
+
+
 
 
 
