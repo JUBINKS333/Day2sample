@@ -28,6 +28,43 @@ print(s.count)
 print(str.lowercased())
 print(str.uppercased())
 
+print("##########################")
+for v in str{
+    print(v)
+}
+
+print("##########################")
+
+
+//closed range
+var x = 1...20
+    
+for i in x
+{
+    print(i)
+    if(i==20)
+    {
+        break
+    }
+}
+print(x)
+
+
+print("##########################")
+
+//partial range
+var y = ...50
+if(y.contains(-1000))
+{
+    print("true")
+}
+else{
+    print("false"
+    )
+}
+
+print("##########################")
+
 
 
 
